@@ -1,21 +1,6 @@
-/**
- * Created with IntelliJ IDEA.
- * User: prasannasr
- * Date: 6/27/12
- * Time: 12:03 PM
- * To change this template use File | Settings | File Templates.
- */
 
-
-//
-//var HH = {"url":"http://localhost:3000",
-//            "appid":"",
-//            "socket" : io.connect(),
-//            "location":""
-//          };
 var HH = {"url":"http://www.stanford.edu/~jcye/cgi-bin/SportsNearby/www/index.html",
     "appid":"",
-    "socket" : io.connect(),
     "location":""
 };
 
@@ -68,29 +53,6 @@ $("#page-login").bind('pageshow', function() {
                 top.location = 'https://graph.facebook.com/oauth/authorize?client_id=345179745567347&scope=publish_stream,email,user_location,user_work_history&redirect_uri='+HH.url+'/index.html#page-home';
 
             });
-    }
-
-    function storeuserdetails(details){
-        $.post(HH.url+'/insertDetails', {"details":details}, function (data) {
-        });
-    }
-    function onSuccess(position) {
-       // alert('success');
-
-        $.post(HH.url+'/updateLocation', {"appid":HH.appid, "location": position.coords.latitude+","+position.coords.longitude }, function (data) {
-            HH.location = "got it";
-            //$('#btnLogin').val('Login using facebook');
-            $('#btnLogin').attr("disabled",false);
-        });
-    }
-    function onError(error) {
-        alert('code: '    + error.code    + '\n' +
-            'message: ' + error.message + '\n');
-    }
-
-    function watchlocation(){
-        var watchID = navigator.geolocation.watchPosition(onSuccess, onError, {enableHighAccuracy: true,maximumAge:5000,timeout: 30000 });
-
     }
 
 });
