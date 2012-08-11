@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SportsNearby' target in the 'SportsNearby' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

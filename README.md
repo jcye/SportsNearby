@@ -1,4 +1,0 @@
-SportsNearby
-============
-
-php,sqlite,phonegap
