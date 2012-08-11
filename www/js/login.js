@@ -13,7 +13,7 @@
 //            "socket" : io.connect(),
 //            "location":""
 //          };
-var HH = {"url":"http://hitchhiker.cloudfoundry.com",
+var HH = {"url":"http://www.stanford.edu/~jcye/cgi-bin/SportsNearby/www/index.html",
     "appid":"",
     "socket" : io.connect(),
     "location":""
@@ -65,7 +65,7 @@ $("#page-login").bind('pageshow', function() {
 
         $("#btnLogin").off('click').on('click',function logMeIn()
             {
-                top.location = 'https://graph.facebook.com/oauth/authorize?client_id=262045627239392&scope=publish_stream,email,user_location,user_work_history&redirect_uri='+HH.url+'/index.html#page-home';
+                top.location = 'https://graph.facebook.com/oauth/authorize?client_id=345179745567347&scope=publish_stream,email,user_location,user_work_history&redirect_uri='+HH.url+'/index.html#page-home';
 
             });
     }
