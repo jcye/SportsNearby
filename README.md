@@ -1,0 +1,4 @@
+SportsNearby
+============
+
+php,sqlite,phonegap
