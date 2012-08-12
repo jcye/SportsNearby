@@ -12,6 +12,13 @@ insert into User values(
 37.402883,
 -122.116601
 );
+insert into User values(
+"0003", 
+"Sharapova", 
+"http://beautiful-pics.org/wp-content/uploads/2010/12/maria_sharapova.jpg",
+37.402883,
+-122.116601
+);
 insert into Event values(
 1,
 "BasketBall Weekend",
@@ -32,6 +39,39 @@ insert into Event values(
 "2012-08-15 15:00:00",
 "2012-08-15 18:00:00",
 37.395869,-122.122148,
+24
+);
+insert into Event values(
+3,
+"Tennis Time",
+"Tennis",
+"Sharapova teach you play tennis!",
+"0003",
+"2012-09-24 8:00:00",
+"2012-09-24 18:00:00",
+37.877834,-122.27239,
+5
+);
+insert into Event values(
+4,
+"Volleyball Time",
+"Voleyball",
+"Let's play volleyball!",
+"0001",
+"2012-11-24 8:00:00",
+"2012-11-24 18:00:00",
+37.427161,-122.08285,
+24
+);
+insert into Event values(
+5,
+"Golf Time",
+"Golf",
+"Let's play golf!",
+"0002",
+"2012-11-25 8:00:00",
+"2012-11-25 18:00:00",
+37.785911,-122.418697,
 24
 );
 insert into categoryHash values(
