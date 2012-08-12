@@ -13,11 +13,21 @@ $("#page-event").live('pagebeforeshow', function(){
       new google.maps.Point(0,0),
       // The anchor for this image is the base of the flagpole at 0,32.
       new google.maps.Point(0, 32));
+  var shadow = new google.maps.MarkerImage('images/basketball.png',
+            // The shadow image is larger in the horizontal dimension
+            // while the position and offset are the same as for the main image.
+            new google.maps.Size(37, 32),
+            new google.maps.Point(0,0),
+            new google.maps.Point(0, 32));
   var myLatLng = new google.maps.LatLng(-34.397, 150.644);
+  var shape = {
+            coord: [1, 1, 1, 20, 18, 20, 18 , 1],
+            type: 'poly'
+        };
   var marker = new google.maps.Marker({
         position: myLatLng,
         map: map,
-        //shadow: shadow,
+        shadow: shadow,
         icon: image,
         shape: shape,
         title: "Hello World",
