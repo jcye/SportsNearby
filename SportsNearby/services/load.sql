@@ -31,6 +31,39 @@ insert into Event values(
 14
 );
 insert into Event values(
+11,
+"BasketBall Weekend",
+"Basketball",
+"Let play BasketBall",
+"0001",
+"2012-08-14 17:00:00",
+"2012-08-14 20:00:00",
+37.395869,-122.122148,
+14
+);
+insert into Event values(
+12,
+"BasketBall Weekend",
+"Basketball",
+"Let play BasketBall",
+"0001",
+"2012-08-15 17:00:00",
+"2012-08-15 20:00:00",
+37.877834,-122.27239,
+14
+);
+insert into Event values(
+13,
+"BasketBall Weekend",
+"Basketball",
+"Let play BasketBall",
+"0001",
+"2012-08-15 17:00:00",
+"2012-08-15 20:00:00",
+37.427161,-122.08285,
+14
+);
+insert into Event values(
 2,
 "Soccer Time",
 "Soccer",
@@ -55,7 +88,7 @@ insert into Event values(
 insert into Event values(
 4,
 "Volleyball Time",
-"Voleyball",
+"Volleyball",
 "Let's play volleyball!",
 "0001",
 "2012-11-24 8:00:00",
