@@ -27,7 +27,11 @@
   	$elat = $row['eLocation_a'];
   	$elon = $row['eLocation_b'];
         $eID = $row['eID'];
-        array_push($eArray,array($elat,$elon,$eID));
+        $eCategory = $row['eCategory'];
+        $eDescription = $row['eDescription'];
+        $eStart = $row['startTime'];
+        $eEnd = $row['endTime'];
+        array_push($eArray,array($elat,$elon,$eID,$eCategory,$eDescription,$eStart,$eEnd));
   }
   //echo $lat;
   //echo $lon;
