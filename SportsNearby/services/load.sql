@@ -31,7 +31,6 @@ insert into Event values(
 "0002",
 "2012-08-15 15:00:00",
 "2012-08-15 18:00:00",
-"http://profile.ak.fbcdn.net/hprofile-ak-snc4/368885_1297817020_1502213717_n.jpg",
 37.395869,-122.122148,
 24
 );
