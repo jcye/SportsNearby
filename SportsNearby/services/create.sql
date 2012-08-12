@@ -1,6 +1,7 @@
 create table Event(
 	eID INTEGER PRIMARY KEY, eName TEXT, eCategory TEXT, eDescription TEXT, 
-	eHostID TEXT, startTime TEXT, endTime TEXT, eLocation_Name Text, eLimit INTEGER, 
+	eHostID TEXT, startTime TEXT, endTime TEXT, eLocation_a Real, eLocation_b Real,
+	eLimit INTEGER, 
 	FOREIGN KEY(eHostID) REFERENCES User(uID)
 	);
 create table User(
@@ -16,3 +17,6 @@ create table Going(
 	FOREIGN KEY(eID) REFERENCES Event(eID),
 	FOREIGN KEY(uID) REFERENCES User(uID)
 	);
+create table categoryHash(
+	eCategory Text, cID INTEGER
+);
