@@ -1,18 +1,18 @@
-insert into User(
+insert into User values(
 "0001", 
 "Jinchao Ye", 
 "http://profile.ak.fbcdn.net/hprofile-ak-ash2/372183_100002081796756_1036753949_n.jpg",
 37.424861,
 -122.159024
 );
-insert into User(
+insert into User values(
 "0002", 
 "Yinan Na", 
 "http://profile.ak.fbcdn.net/hprofile-ak-snc4/368885_1297817020_1502213717_n.jpg37.424861",
 37.402883,
 -122.116601
 );
-insert into Event(
+insert into Event values(
 1,
 "BasketBall Weekend",
 "BasketBall",
@@ -21,9 +21,9 @@ insert into Event(
 "2012-08-13 17:00:00",
 "2012-08-13 20:00:00",
 "Arrillaga Sports Center",
-"14"
+14
 );
-insert into Event(
+insert into Event values(
 2,
 "Soccer Time",
 "Soccer",
@@ -32,5 +32,5 @@ insert into Event(
 "2012-08-15 15:00:00",
 "2012-08-15 18:00:00",
 "Los Altos Soccer Camps",
-"24"
+24
 );
