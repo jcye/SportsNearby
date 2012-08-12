@@ -24,6 +24,11 @@
 	<array>
 		<string>*</string>
 	</array>
+    <key>Plugins</key>
+    <dict>
+        <key>Geolocation</key>
+        <string>CDVLocation</string>
+    </dict>
 	<key>Plugins</key>
 	<dict>
 		<key>Logger</key>

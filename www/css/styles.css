@@ -14,16 +14,19 @@ body { height: 100%; margin: 0; padding: 0 }
 	background-color: black!important;
 }
 .ui-bar {
-	height: 280px;
+	height: 117px;
 	border: 0!important;
 }
 .sports_icon {
+	width: 55px;
+	height: 55px;
 	display:block;
 	margin:auto;
-	margin-top: 60px;
+	margin-top: 20px;
 }
 
 .ui-bar .label{
+	font-size: 13px;
 	padding-top: 10px;
 	text-align: center;
 }
