@@ -17,3 +17,6 @@ create table Going(
 	FOREIGN KEY(eID) REFERENCES Event(eID),
 	FOREIGN KEY(uID) REFERENCES User(uID)
 	);
+create table categoryHash(
+	eCategory Text, cID INTEGER
+)

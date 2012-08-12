@@ -15,7 +15,7 @@ insert into User values(
 insert into Event values(
 1,
 "BasketBall Weekend",
-"BasketBall",
+"Basketball",
 "Let play BasketBall",
 "0001",
 "2012-08-13 17:00:00",
@@ -33,4 +33,28 @@ insert into Event values(
 "2012-08-15 18:00:00",
 37.395869,-122.122148,
 24
+);
+insert into categoryHash values(
+	"Basketball", 1
+);
+insert into categoryHash values(
+	"Soccer", 2
+);
+insert into categoryHash values(
+	"Baseball", 3
+);
+insert into categoryHash values(
+	"Football", 4
+);
+insert into categoryHash values(
+	"Tennis", 5
+);
+insert into categoryHash values(
+	"Golf", 6
+);
+insert into categoryHash values(
+	"Volleyball", 7
+);
+insert into categoryHash values(
+	"Water Polo", 8
 );
