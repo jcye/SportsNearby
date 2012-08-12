@@ -19,7 +19,7 @@
     }
     $query = $query." and eCategory = '".$category."'";
   }
-  echo $query;
+  //echo $query;
   $result = $db->query($query);
   $db = null;
   $eArray = array();
