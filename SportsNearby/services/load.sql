@@ -20,7 +20,7 @@ insert into Event values(
 "0001",
 "2012-08-13 17:00:00",
 "2012-08-13 20:00:00",
-"Arrillaga Sports Center",
+37.431114,-122.161109,
 14
 );
 insert into Event values(
@@ -31,6 +31,7 @@ insert into Event values(
 "0002",
 "2012-08-15 15:00:00",
 "2012-08-15 18:00:00",
-"Los Altos Soccer Camps",
+"http://profile.ak.fbcdn.net/hprofile-ak-snc4/368885_1297817020_1502213717_n.jpg",
+37.395869,-122.122148,
 24
 );
