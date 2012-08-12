@@ -19,4 +19,4 @@ create table Going(
 	);
 create table categoryHash(
 	eCategory Text, cID INTEGER
-)
+);
