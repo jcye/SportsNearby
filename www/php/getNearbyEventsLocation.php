@@ -11,14 +11,15 @@
   $lat = $_GET['lat'];
   $thresh = 100;
   $query = "select * from Event where (69.1*(".$lon." - eLocation_a)*69.1*(".$lon." - eLocation_a)+53.0*(".$lat." - eLocation_b)*53.0*(".$lat." - eLocation_b)) < ".$thresh;
-  echo $query;
+  //echo $query;
   $result = $db->query($query);
   $db = null;
   $eArray = array();
   foreach($result as $row){
   	$elat = $row['eLocation_a'];
   	$elon = $row['eLocation_b'];
-        $array_push($eArray,array($elat,$elon));
+        $eID = $row['eID'];
+        array_push($eArray,array($elat,$elon,$eID));
   }
   //echo $lat;
   //echo $lon;
