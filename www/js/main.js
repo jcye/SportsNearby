@@ -6,6 +6,9 @@ $("#page-event").live('pagebeforeshow', function(){
   };
   var map = new google.maps.Map(document.getElementById("map_canvas"),
     mapOptions);
+  map.addMarker({'position': '-34.397, 150.644','icon':'images/basketball.png' }).click(function() {
+    map.openInfoWindow({ 'content': 'Hello World'names'' }, map);
+  });
 })
 
 $("#page-create").live('pagebeforeshow', function(){
