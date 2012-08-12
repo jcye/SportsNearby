@@ -7,7 +7,7 @@
     "SQLite connection failed: " . $e->getMessage();
     exit();
   }
-  $result = db->query("select * from User where userID = '".$_GET[userid]."'");
+  $result = db->query("select * from User where uID = '".$_GET[userid]."'");
   $db = null;
   foreach($result as $row){
   	$lat = $row['uLocation_a'];
