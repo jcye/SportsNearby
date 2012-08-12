@@ -1,11 +1,10 @@
 create table Event(
 	eID INTEGER PRIMARY KEY, eName TEXT, eCategory TEXT, eDescription TEXT, 
-	eHostID TEXT, startTime TEXT, endTime TEXT, eLocation_a TEXT, eLocation_b TEXT,
-	eLimit INTEGER, 
+	eHostID TEXT, startTime TEXT, endTime TEXT, eLocation_Name Text, eLimit INTEGER, 
 	FOREIGN KEY(eHostID) REFERENCES User(uID)
 	);
 create table User(
-	uID TEXT PRIMARY KEY, uName TEXT, uPhoto_URL TEXT, uLocation_a TEXT, uLocation_b TEXT
+	uID TEXT PRIMARY KEY, uName TEXT, uPhoto_URL TEXT, uLocation_a Real, uLocation_b Real
 	);
 create table Request(
 	eID INTEGER, uID TEXT,
