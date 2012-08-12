@@ -8,7 +8,7 @@ insert into User values(
 insert into User values(
 "0002", 
 "Yinan Na", 
-"http://profile.ak.fbcdn.net/hprofile-ak-snc4/368885_1297817020_1502213717_n.jpg37.424861",
+"http://profile.ak.fbcdn.net/hprofile-ak-snc4/368885_1297817020_1502213717_n.jpg",
 37.402883,
 -122.116601
 );
