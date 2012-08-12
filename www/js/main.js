@@ -17,3 +17,4 @@ $("#page-create").live('pagebeforeshow', function(){
   var map = new google.maps.Map(document.getElementById("map_canvas_small"),
     mapOptions);
 })
+
