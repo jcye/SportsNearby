@@ -1,0 +1,29 @@
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0 }
+#map_canvas { height: 100% }
+
+.ui-icon { width: 30px!important; height: 40px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }
+#home .ui-icon { background:  url(../images/icons/53-house.png)  no-repeat; background-size: 25px 25px; }
+#profile .ui-icon { background:  url(../images/icons/111-user.png) no-repeat; background-size: 25px 25px;  }
+#nearby .ui-icon { background:  url(../images/icons/73-radar.png) no-repeat;  background-size: 25px 25px; }
+
+.ui-grid-b {
+	background-color: black;
+}
+.ui-grid-b .unit {
+	background-color: black!important;
+}
+.ui-bar {
+	height: 280px;
+	border: 0!important;
+}
+.sports_icon {
+	display:block;
+	margin:auto;
+	margin-top: 60px;
+}
+
+.ui-bar .label{
+	padding-top: 10px;
+	text-align: center;
+}

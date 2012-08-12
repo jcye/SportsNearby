@@ -37,7 +37,7 @@
 		D04CD8E315D6FB1400C3ECFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D04CD8E215D6FB1400C3ECFE /* AppDelegate.m */; };
 		D04CD8E615D6FB1400C3ECFE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D04CD8E515D6FB1400C3ECFE /* MainViewController.m */; };
 		D04CD8E815D6FB1400C3ECFE /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D04CD8E715D6FB1400C3ECFE /* MainViewController.xib */; };
-		D04CD8F215D6FB9D00C3ECFE /* www in Resources */ = {isa = PBXBuildFile; fileRef = D04CD8F115D6FB9D00C3ECFE /* www */; };
+		D04CDCC215D75B7100C3ECFE /* www in Resources */ = {isa = PBXBuildFile; fileRef = D04CDCC115D75B7100C3ECFE /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,7 +78,7 @@
 		D04CD8E715D6FB1400C3ECFE /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
 		D04CD8EA15D6FB1400C3ECFE /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		D04CD8EB15D6FB1400C3ECFE /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
-		D04CD8F115D6FB9D00C3ECFE /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		D04CDCC115D75B7100C3ECFE /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +116,7 @@
 		D04CD88815D6FB1400C3ECFE = {
 			isa = PBXGroup;
 			children = (
+				D04CDCC115D75B7100C3ECFE /* www */,
 				D04CD8B415D6FB1400C3ECFE /* SportsNearby */,
 				D04CD89915D6FB1400C3ECFE /* Frameworks */,
 				D04CD89715D6FB1400C3ECFE /* Products */,
@@ -153,7 +154,6 @@
 		D04CD8B415D6FB1400C3ECFE /* SportsNearby */ = {
 			isa = PBXGroup;
 			children = (
-				D04CD8F115D6FB9D00C3ECFE /* www */,
 				D04CD8BD15D6FB1400C3ECFE /* Cordova.framework */,
 				D04CD8BF15D6FB1400C3ECFE /* Resources */,
 				D04CD8E015D6FB1400C3ECFE /* Classes */,
@@ -330,7 +330,7 @@
 				D04CD8DD15D6FB1400C3ECFE /* Capture.bundle in Resources */,
 				D04CD8DF15D6FB1400C3ECFE /* Cordova.plist in Resources */,
 				D04CD8E815D6FB1400C3ECFE /* MainViewController.xib in Resources */,
-				D04CD8F215D6FB9D00C3ECFE /* www in Resources */,
+				D04CDCC215D75B7100C3ECFE /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +542,7 @@
 				D04CD8F015D6FB1400C3ECFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
